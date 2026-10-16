@@ -5,7 +5,9 @@
 ## Что нужно заранее
 
 Карта должна быть прошита vBIOS для iMac с драйвером GOP и включённой внутренней панелью. Оригинальный vBIOS ноутбука эту панель не зажигает.
-Загрузчик OpenCore установлен на iMaс или рабочая загрузочная флешка с ним. 
+
+Загрузчик OpenCore установлен на iMaс или рабочая загрузочная флешка с ним.
+
 С таким vBIOS и двумя параметрами OpenCore ниже внутренний экран работает в меню OpenCore и в Windows до загрузки драйвера NVIDIA.
 
 ### vBIOS
@@ -13,6 +15,7 @@
 vBIOS прошивается аппаратным программатором. Образы прошивок и описание процесса прошивок смотреть в постах на MacRumors:
 
 **Santa's Little Helper** - https://forums.macrumors.com/threads/imac-2011-maxwell-and-pascal-gpu-upgrade.2300989/page-7?post=30349621#post-30349621
+
 **m0bil** - https://forums.macrumors.com/threads/imac-2011-maxwell-and-pascal-gpu-upgrade.2300989/page-9?post=30638999#post-30638999
 
 ### OpenCore
